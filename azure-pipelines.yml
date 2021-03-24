@@ -7,8 +7,8 @@ trigger:
 - master
 
 pool:
-  vmImage: 'windows-latest'
-
+  name: 'Default'
+  vmImage: 'az400-self-vm'
 variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
